@@ -18,13 +18,13 @@ Luego se implementaron cambios significativos para mejorar la presentación visu
 ---
 ### Before | After Signup: 
 
-También sucedía el mismo problema con Signup, encontrandose este en el lateral derecho. Al posicionarlo correctamente, el formulario ocupaba todo el ancho de la pantalla, perdiendo el estilo original del fondo rojo de Codefend. Para solucionar esto, se aplico un maximo de anchura. Finalmente se posiciono correctamente el ultimo _el_ `<a>`.
+También sucedía el mismo problema con Signup, encontrandose este en el lateral derecho. Al posicionarlo correctamente, el formulario ocupaba todo el ancho de la pantalla, perdiendo el estilo original del fondo rojo de Codefend. Para solucionar esto, se aplico un máximo de anchura. Finalmente se posiciono correctamente el último _el_ `<a>`.
 
 ![2_before_localhost_3000_auth_signup(iPhone 12 Pro)](https://github.com/oyham/codefend-before-after/assets/97111287/7cbfa977-b330-4d0e-beda-536ef7f8f975) ![3_after_localhost_3000_auth_signup(iPhone 12 Pro)](https://github.com/oyham/codefend-before-after/assets/97111287/66bd7439-f912-4c1a-8b31-75cd70ad7e2d)
 
 ![4_after_localhost_3000_auth_signup(iPhone 12 Pro)](https://github.com/oyham/codefend-before-after/assets/97111287/d336c1e1-03bb-48ad-a5f8-c8812c2d8a7a) ![5_after_localhost_3000_auth_signup(iPhone 12 Pro)](https://github.com/oyham/codefend-before-after/assets/97111287/2ae5e553-6bd9-4853-a651-26c139f57df2)
 
-Para finalizar comprobe cómo se visualizaba en diferentes dispositivos (medidas), y encontre que en dispositivos de 360x740 el formulario ocupaba demasiado espacio vertical, asi que se le aplicó un overflow-y interno para una mejor experiencia de usuario.
+Para finalizar, comprobe cómo se visualizaba en diferentes dispositivos (medidas), y encontre que en dispositivos de 360x740 el formulario ocupaba demasiado espacio vertical, asi que se le aplicó un overflow-y interno para una mejor experiencia de usuario.
 
 ![360x740exampleOverflowY](https://github.com/oyham/codefend-before-after/assets/97111287/115b3acc-fc26-43ef-8a1c-da86ba2336d3)
 
@@ -32,11 +32,11 @@ Para finalizar comprobe cómo se visualizaba en diferentes dispositivos (medidas
 ### Solucionando diferentes errores en medidas de escritorio:
 
 #### Page endpointsApp.jsx /enp:
-El siguiente error se lanzaba en consola al iniciar sesión en la aplicación de Codefend:
+El siguiente error se mostraba en consola al iniciar sesión en la aplicación de Codefend:
 
 ![0_ssENPconsoleError](https://github.com/oyham/codefend-before-after/assets/97111287/78e88b9d-9b3c-48ea-8b73-3f014afe64c0)
 
-Luego de solucionar este error la aplicación renderizó correctamente, pero habia un pequeño bug, donde un Loader se mostraba continuamente sin desaparecer, incluso después de que la operación debería haber finalizado.
+Luego de solucionar este error la aplicación renderizó correctamente, pero había un pequeño bug, donde un Loader se mostraba continuamente sin desaparecer, incluso después de que la operación debería haber finalizado.
 Posibles causas:
 - Un bucle infinito o una condición que impide que el código responsable de ocultar el Loader se ejecute correctamente.
 - Un mal manejo de errores que impide que el código de cierre del Loader se ejecute en caso de fallo.
@@ -56,7 +56,7 @@ Renderizado correcto de `<EmptyCard />`.
 
 ---
 #### Page issuesPanel.jsx /issues:
-Aca nos encontramos con errores de estilos, por el cuál se sobreponian diferentes componentes dentro de la page issues. Luego de solucionar los errores de estilos, se aplico un overflow-y al componente issuesReport.jsx _FILTER AND GENERATE REPORT_:
+Acá nos encontramos con errores de estilos, por el cuál se sobreponían diferentes componentes dentro de la _page_ issues. Luego de solucionar los errores de estilos, se aplicó un overflow-y al componente issuesReport.jsx _FILTER AND GENERATE REPORT_:
 
 ![3_ssISSUES](https://github.com/oyham/codefend-before-after/assets/97111287/13cd8e22-ccc6-4933-a0db-6393200d6a52)
 ![4_ssISSUES](https://github.com/oyham/codefend-before-after/assets/97111287/1d025b18-a630-4d5a-8b2f-162bbc911623)
@@ -73,7 +73,7 @@ En esta page podemos ver que el email rompe la anchura máxima del componente co
 
 ---
 ### Page /web:
-Aca podemos ver que el componente que se encarga de mostrar los dominios y subdominios se interponia con los componentes laterales. También se solucionó este error.
+Acá podemos ver que el componente que se encarga de mostrar los dominios y subdominios se interponía con los componentes laterales. También se solucionó este error.
 
 ![8_ssWEBnoIp](https://github.com/oyham/codefend-before-after/assets/97111287/82f0863a-40ed-4079-8859-368906a531de)
 ![9_ssWEB fixednoIp](https://github.com/oyham/codefend-before-after/assets/97111287/7d0aa8ba-0dd8-45a0-9c92-28fb1a2cb0f1)
