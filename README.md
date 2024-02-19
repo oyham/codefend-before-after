@@ -25,6 +25,7 @@ También sucedía el mismo problema con Signup, encontrandose este en el lateral
 ![4_after_localhost_3000_auth_signup(iPhone 12 Pro)](https://github.com/oyham/codefend-before-after/assets/97111287/d336c1e1-03bb-48ad-a5f8-c8812c2d8a7a) ![5_after_localhost_3000_auth_signup(iPhone 12 Pro)](https://github.com/oyham/codefend-before-after/assets/97111287/2ae5e553-6bd9-4853-a651-26c139f57df2)
 
 Para finalizar comprobe cómo se visualizaba en diferentes dispositivos (medidas), y encontre que en dispositivos de 360x740 el formulario ocupaba demasiado espacio vertical, asi que se le aplicó un overflow-y interno para una mejor experiencia de usuario.
+
 ![360x740exampleOverflowY](https://github.com/oyham/codefend-before-after/assets/97111287/115b3acc-fc26-43ef-8a1c-da86ba2336d3)
 
 ---
