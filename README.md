@@ -1,6 +1,6 @@
 <h1 align="center">Codefend-ui-ux-redesign</h1>
 
-Este repositorio presenta el antes y después de la interfaz de usuario (UI) y la experiencia del usuario (UX) que realicé para la empresa Codefend durante un concurso freelance. Se destacan las mejoras realizadas, los desafíos abordados y la evolución del diseño. 
+Este repositorio presenta el antes y después de la interfaz de usuario (UI) y la experiencia del usuario (UX) que realicé para la empresa <a href="https://www.codefend.com/" target="_blank">Codefend<a/> durante un concurso freelance. Se destacan las mejoras realizadas, los desafíos abordados y la evolución del diseño. 
 
 ## Singin / Signup
 
@@ -32,7 +32,7 @@ Para finalizar comprobe cómo se visualizaba en diferentes dispositivos (medidas
 ---
 ### Solucionando diferentes errores en medidas de escritorio:
 
-#### Page endpointsApp.jsx:
+#### Page endpointsApp.jsx /enp:
 El siguiente error se lanzaba en consola al iniciar sesión en la aplicación de Codefend:
 
 ![0_ssENPconsoleError](https://github.com/oyham/codefend-before-after/assets/97111287/78e88b9d-9b3c-48ea-8b73-3f014afe64c0)
@@ -53,6 +53,31 @@ Esto se solucionó aplicando el siguiente código en el componente endpointsApps
 
 ![1_ssENP](https://github.com/oyham/codefend-before-after/assets/97111287/b8045e94-ea17-49f2-9f46-852cab27ce58) ![2_ssENP fixed](https://github.com/oyham/codefend-before-after/assets/97111287/1d6f3c3c-8321-4e6c-b27d-a9d48fe74623)
 
-Finalmente se renderizó correctamente `<EmptyCard />`.
+Renderizado correcto de `<EmptyCard />`.
 
 ---
+#### Page issuesPanel.jsx /issues:
+Aca nos encontramos con errores de estilos, por el cuál se sobreponian diferentes componentes dentro de la page issues. Luego de solucionar los errores de estilos, se aplico un overflow-y al componente issuesReport.jsx _FILTER AND GENERATE REPORT_:
+
+![3_ssISSUES](https://github.com/oyham/codefend-before-after/assets/97111287/13cd8e22-ccc6-4933-a0db-6393200d6a52)
+![4_ssISSUES](https://github.com/oyham/codefend-before-after/assets/97111287/1d025b18-a630-4d5a-8b2f-162bbc911623)
+![5_ssISSUES fixed](https://github.com/oyham/codefend-before-after/assets/97111287/e9c1c199-44ae-4284-9048-748a6146d8e0)
+
+---
+### Page /preferences:
+
+![6_ssPREFERENCES](https://github.com/oyham/codefend-before-after/assets/97111287/6ecc29cd-6505-42f8-80f7-73f6fbd3bb3b)
+
+En esta page podemos ver que el email rompe la anchura máxima del componente companyInformation. Se aplicó un overflow-x y otros cambios de estilo para su correcta visualización. También se eliminó la imagen de usuario momentaneamente en personalDetails.
+
+![7_ssPREFERENCES fixed](https://github.com/oyham/codefend-before-after/assets/97111287/9cdd2464-3033-4549-90d0-55e1e375dd21)
+
+---
+### Page /web:
+Aca podemos ver que el componente que se encarga de mostrar los dominios y subdominios se interponia con los componentes laterales. También se solucionó este error.
+
+![8_ssWEBnoIp](https://github.com/oyham/codefend-before-after/assets/97111287/82f0863a-40ed-4079-8859-368906a531de)
+![9_ssWEB fixednoIp](https://github.com/oyham/codefend-before-after/assets/97111287/7d0aa8ba-0dd8-45a0-9c92-28fb1a2cb0f1)
+
+---
+
