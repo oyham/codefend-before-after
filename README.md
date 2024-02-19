@@ -1,7 +1,5 @@
 <h1 align="center">Codefend-ui-ux-redesign</h1>
 
-Este repositorio presenta el antes y después de la interfaz de usuario (UI) y la experiencia del usuario (UX) que realicé para la empresa <a href="https://www.codefend.com/" target="_blank">Codefend<a/> durante un concurso freelance. Se destacan las mejoras realizadas, los desafíos abordados y la evolución del diseño. 
-
 ## Singin / Signup
 
 En las primeras dos capturas de pantalla se presenta el proceso de inicio de sesión (Signin) antes y después del rediseño.
