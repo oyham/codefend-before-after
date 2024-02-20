@@ -79,4 +79,4 @@ Acá podemos ver que el componente que se encarga de mostrar los dominios y subd
 ![9_ssWEB fixednoIp](https://github.com/oyham/codefend-before-after/assets/97111287/7d0aa8ba-0dd8-45a0-9c92-28fb1a2cb0f1)
 
 ---
-
+Poder haber participado de este enorme proyecto aunque haya sido por un corto periodo de tiempo, me enriqueció personalmente. Apreendiendo un poco más del ecosistema de poder interactuar en remoto, aportar un poco de mis conocimientos y ganar la experiencia de cómo se estructura un proyecto de gran nivel cómo lo es Codefend.
